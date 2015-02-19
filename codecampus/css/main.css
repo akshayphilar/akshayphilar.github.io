@@ -1,0 +1,68 @@
+
+body {
+    /*min-height: 1024px;*/
+
+}
+
+#container{padding:0;margin:auto;}
+/*Banner section styles*/
+#banner {padding-bottom: 20px;}
+#banner-img {position: fixed; z-index: -100;}
+#banner {width:100%;background: transparent;margin: auto;height:50%;}
+#navigation_container {float:right;display: inline-block;clear: both;}
+#navigation{list-style: none;}
+#navigation li {display: inline-block;color:#ffffff; font-family: "Helvetica Neue", "Roboto", sans-serif;font-size: 0.8em;}
+
+#center_text {text-align: center;clear: both;margin-top:5%;}
+#center_text img {display: inline-block; margin:auto;}
+#center_text h1{color: #ffffff;}
+#center_text h4{color: #93d4e7;}
+#center_text h3{color: #ffffff;}
+#center_text button{background: #ffc942;color:white;font-weight: bold;display: block; margin: auto;
+    border-bottom: 5px solid #aa862c;}
+
+#btn-dropdown {background: transparent; border: 0;}
+
+#login_form{display: none;}
+
+/*content section style*/
+#content {width:100%;padding:10px;align-content: center;margin: 0 auto 0 auto;background-color: #ffffff;}
+#content-header {text-align: center;}
+#content-header h2 {font-weight: bold;text-align: center;font-family: "Helvetica Neue", "Roboto", sans-serif;
+font-style: italic;color: #000053;}
+#content-header p{color: #000053;padding-top: 1em;font-family: "Raleway", "Lato", Arial, sans-serif;}
+
+.center-images {display: block;margin: auto;}
+
+.content-blocks h3 {text-align: center;font-weight: bold;}
+.content-blocks p {text-align: justify;font-size:1em;}
+
+
+.btns-content{border:0; border-bottom:5px solid black;color:white;font-weight: bold;
+    padding: 5px 10px 5px 10px;display:block; margin:auto;}
+.btns-content-selected{border-bottom-width: 8px;}
+#btn-myapp {background-color:#ffc942; border-bottom-color: #d1a136;}
+#btn-mystore{background-color:#009b50; border-bottom-color: #005429;}
+#btn-mycode{background-color:#e30019; border-bottom-color: #64000c;}
+
+
+/*Enrol Section Styles*/
+#enroll{background-color: #93d4e7;width:100%;margin:auto;text-align: center;padding: 15px;}
+#enroll h2{font-weight:bold;color:white;}
+#enroll h3 {padding-top:0;margin-top: 0;margin-bottom: 20px;text-align: center;color:white;}
+#enroll button{background: #1c2a52; border: 0; padding: 4px 12px 4px 12px;font-weight: bold;color:white;}
+#enroll input {margin-bottom: 10px;padding:10px;border: 1px groove lightgray;}
+#text-div textarea {margin:0;color:#000000;padding:1em;}
+
+ /*Footer Styles*/
+#footer{background-color: #1c2a52;color: white;width:100%;margin:auto;padding-top: 50px;padding-bottom: 30px;}
+
+#about_us span{display: inline-block; color:#93d4e7;}
+#about_us p{display: block;}
+#get_social img {border:0;background-color: transparent;}
+
+
+#contact_us button {border: 1px solid #93d4e7; border-bottom: 3px solid #93d4e7;color:white;font-weight: bold;
+    padding: 5px 10px 5px 10px;display:block; margin:auto;background: transparent;}
+#contact_us input {background: transparent;border: 1px inset #93d4e7;display: block;margin-bottom: 10px;width:60%;}
+#contact_us textarea {background: transparent;border: 1px inset #93d4e7;margin-bottom: 10px;width: 60%;}
