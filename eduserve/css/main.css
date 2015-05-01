@@ -1,0 +1,90 @@
+
+body {
+    /*min-height: 1024px;*/
+
+}
+
+@font-face {
+    font-family: 'Chalkduster';
+
+    src: url('../fonts/Chalkduster.ttf')  format('truetype'); /* Safari, Android, iOS */
+
+}
+
+#container{padding:0;margin:auto;}
+/*Banner section styles*/
+#banner {padding-bottom: 20px;}
+#banner-img {position: fixed; z-index: -100;}
+#banner {width:100%;background: transparent;margin: auto;height:50%;}
+#logo-top {float:left;}
+#navigation_container {float:right;display: inline-block;clear: both;margin-right: 5%;}
+#navigation{list-style: none;}
+#navigation li {display: inline-block;color:#ffffff; font-family: "Helvetica Neue", "Roboto", sans-serif;font-size: 0.8em;}
+
+#center_text {text-align: center;clear: both;margin-top:15%; margin-bottom: 5%;}
+#center_text img {display: inline-block; margin:auto;}
+#center_text h1{color: #ffffff;font-family: Chalkduster;}
+#center_text h2{color: #ffffff;font-family: Chalkduster;}
+#center_text h4{color: #ffcc15;}
+#center_text h3{color: #ffffff;font-family: Chalkduster;}
+#center_text button{background: #ffc942;color:white;font-weight: bold;display: block; margin: auto;
+    border-bottom: 5px solid #aa862c;}
+
+#btn-dropdown {background: transparent; border: 0;}
+#login_form {position: absolute;background-color: white;align-content: center;margin: auto;width: 300px; padding-top:10px;}
+.hide {display:none;}
+.show{display: block;}
+
+#login_form span{margin-left: 44px;}
+#login_form h4 {background-color: #e7ce34;color: white;font-weight: bold;text-align: center;margin-bottom: 0;padding:10px;}
+#login_form a{color: #93d4e7;font-style: italic; font-size: 0.7em;}
+#login_form button{background-color: #1c2a52; color: white;margin-left: 40px;}
+
+#student_login {margin: auto;display: block;padding-left: 50px;}
+#student_login input {margin: auto; display: block;width: 120%;}
+
+#teacher_login {margin: auto;display: block;padding-left: 50px;}
+#teacher_login input {margin: auto; display: block;width: 120%;}
+/*content section style*/
+#content {width:100%;padding:10px;align-content: center;margin: 0 auto 0 auto;background: url('../img/doodle_bg.png')}
+#content-header {text-align: center;}
+#content-header h2 {font-weight: bold;text-align: center;font-family: "Helvetica Neue", "Roboto", sans-serif;  color: #000;}
+#content-header p{color: #000;padding-top: 1em;font-family: "Raleway", "Lato", Arial, sans-serif;text-align: justify;}
+
+.center-images {display: block;margin: auto;}
+
+.content-blocks h3 {text-align: center;font-weight: bold;}
+.content-blocks p {text-align: justify;font-size:1em;}
+
+
+.btns-content{border:0; border-bottom:5px solid black;color:white;font-weight: bold;
+    padding: 5px 10px 5px 10px;display:block; margin:auto;}
+.btns-content-selected{border-bottom-width: 8px;}
+#btn-myapp {background-color:#ffc942; border-bottom-color: #d1a136;}
+#btn-mystore{background-color:#009b50; border-bottom-color: #005429;}
+#btn-mycode{background-color:#e30019; border-bottom-color: #64000c;}
+
+
+/*Enrol Section Styles*/
+#enroll{background-color: #93d4e7;width:100%;margin:auto;text-align: center;padding: 15px;}
+#enroll h2{font-weight:bold;color:white;}
+#enroll h3 {padding-top:0;margin-top: 0;margin-bottom: 20px;text-align: center;color:white;}
+#enroll button{background: #1c2a52; border: 0; padding: 4px 12px 4px 12px;font-weight: bold;color:white;}
+#enroll input {margin-bottom: 10px;padding:10px;border: 1px groove lightgray;}
+#enroll p {text-align: justify;color: #ffffff;}
+#enroll blockquote {color: #ffffff;}
+#text-div textarea {margin:0;color:#000000;padding:1em;}
+
+ /*Footer Styles*/
+#footer{background-color: #ffcc15;color: white;margin:auto;padding-top: 50px;padding-bottom: 30px;padding-left:10%;}
+#about_us {margin: auto;}
+#about_us span{display: inline-block; color: #e7a521;}
+#about_us p{display: block;}
+
+#get_social img {border:0;background-color: transparent;}
+
+
+#contact_us button {border: 1px solid #e7a521; border-bottom: 3px solid #e7a521;color:white;font-weight: bold;
+    padding: 5px 10px 5px 10px;display:block; margin:auto;background: transparent;}
+#contact_us input {background: transparent;border: 1px inset #e7a521;display: block;margin-bottom: 10px;width:60%;}
+#contact_us textarea {background: transparent;border: 1px inset #e7a521;margin-bottom: 10px;width: 60%;}
